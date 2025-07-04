@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: '投げ銭で応援',
   description: 'あなたの応援が創作活動の励みになります',
-  metadataBase: new URL('https://your-domain.vercel.app'), // Replace with your actual domain
+  metadataBase: new URL('https://donation-site-five.vercel.app'),
   openGraph: {
     title: '投げ銭で応援',
     description: 'あなたの応援が創作活動の励みになります',
-    url: 'https://your-domain.vercel.app',
+    url: 'https://donation-site-five.vercel.app',
     siteName: '投げ銭サイト',
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   themeColor: '#f97316',
   alternates: {
-    canonical: 'https://your-domain.vercel.app',
+    canonical: 'https://donation-site-five.vercel.app',
   },
 }
 
